@@ -1,5 +1,15 @@
 # LMS Frontend
 
+### Create Project 
+
+1. npm create vite@latest
+2. choose Project name- lms-frontend
+3. select framework or library
+4. select language 
+5. cd project
+6. npm install
+7. npm run dev
+
 ### setup instructions
 
 1. Clone the project
