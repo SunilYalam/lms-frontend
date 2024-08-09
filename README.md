@@ -36,7 +36,7 @@ Tailwind official instruction doc - link
 
 1. Install tailwindcss
 ```
-npm install -D tailwindcss
+npm install -D tailwindcss postcss autoprefixer
 ```
 2. Create tailwind config file
 ```
@@ -44,7 +44,7 @@ npm install -D tailwindcss
 ```
 3. add file extensions to tailwind config file
 ```
-   "./src/**/*.{html,js,jsx,ts,tsx}"
+   "./src/**/*.{html,js,jsx,ts,tsx}", "./index.html",
    ```
 4. Add the tailwind directives at the top of the 'index.css' file
 ```
@@ -80,3 +80,16 @@ npm install -D tailwindcss
       "source.fixAll.eslint": true
    }
    ```
+
+### You install packages if you want to uninstall package follow this cmd
+```
+npm uninstall postcss autoprefixer 
+```
+### and remove from package.json
+```
+npm install -D postcss autoprefixer
+```
+### after 
+```
+npx tailwindcss init -p
+```
